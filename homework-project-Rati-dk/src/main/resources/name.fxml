@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boardgame.BoardGameController">
+   <children>
+      <TextField fx:id="player1NameTextField" layoutX="333.0" layoutY="50.0" />
+      <TextField fx:id="player2NameTextField" layoutX="333.0" layoutY="131.0" />
+      <Text layoutX="98.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1 name" wrappingWidth="170.12399291992188" />
+      <Text layoutX="98.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 2 name" wrappingWidth="170.12399291992188" />
+   </children>
+</AnchorPane>
